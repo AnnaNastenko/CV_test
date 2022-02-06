@@ -198,6 +198,14 @@ a:visited {
     font-size: 16px;
 }
 
+.tiktok li {
+    background-color: #F4E8C1;
+    color: #371d4e;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 /* .social {
     background: #b386ddc4;
