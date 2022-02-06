@@ -1,76 +1,91 @@
 <html>
     <head>
+        <meta charset="UTF-8" />
         <title>Anna's CV</title>
+        <link href="styles.css" rel="stylesheet" />
     </head>
     <body>
-        <table cellspacing="15">
-            <tr>
-                <td><img src="me.jpg" width="200"></td>
-                <td><h1>Anna Nastenko</h1>
-                    <p1><em>I'm a manual QA engineer.</em></p1>
-                        <br />
+        <div class="container">
+            <div class="info">
+            <img src="me.jpg" class="avatar" />
+            <div class="text-aboutme">
+                    <h1>Anna Nastenko</h1>
+                    <p1>I'm a manual QA engineer.</p1>
+                    <br>
                     <p2>I like conducting various offbeat checks.</p2> 
-                        <br/>
+                    <br>
                     <p3>Mainly my work implies imagining myself as a user trying to figure out a feature.</p3>
-                </td>
-            </tr>
-        </table>
+            </div>
+        </div>           
+                    <div class="card bg-socials">
+                    
+                            <h4>My socials</h4>
+                                <a href="https://t.me/annie_birdman" target="blank"> ✈️My telegram</a>
+                                <a href="https://instagram.com/annrgy" target="blank"> 📸My instagram</a>
+                                <a href="https://github.com/AnnaNastenko/CV_test" target="blank"> 👩‍🚀GitHub repo</a>
+                        </div> 
+
+                <div class="card bg-hobby">
+                     <h2>My hobbies</h2>
+                        <ol class="hobby_list">
+                            <li>Content making 🪄</li>
+                            <li>Illustration 🎨</li>
+                            <li>Writing 📖</li>
+                            <li>Language learning 📚</li>
+                            <li>Photography 📷</li>
+                        </ol>
+                </div>
         
+                 <div class="card bg-work">
+            <h2> Work experience</h2>
+            <table class="table">
+                    <tr>
+                        <td>Fonbet</td>
+                        <td>1st line support</td>
+                        <td>2019-2020</td>
+                    </tr>
+                <tr>
+                    <td>AdGuard</td>
+                    <td>QA engineer</td>
+                    <td>2021-2022</td>
+                </tr>
+                <tr>
+                    <td>My birds</td>
+                    <td>Illustrator/Manager</td>
+                    <td>2022-now</td>
+                </tr>
+            </table>
+        </div>
+            <div class="card bg-tiktok">
+                <h2>TikTok content</h2>
+             <a href="tiktok.html">View my Tiktok content</a>
+            </div>
 
-        <hr color=#5C6945 noshade/>
-
-        <h2>My socials</h2>
-        <ul>
-            <li><a href="https://t.me/annie_birdman" target="blank">My telegram </a></li>
-            <li><a href="https://instagram.com/annrgy" target="blank">My instagram </a></li>
-            <li><a href="https://github.com/AnnaNastenko/CV_test" target="blank">GitHub repo </a></li>
-        </ul>
-        <hr color=#5C6945 noshade/>
-        <h2>My hobbies</h2>
-        <ol>
-            <li>Content making 🪄</li>
-            <li>Illustration 🎨</li>
-            <li>Writing 📖</li>
-            <li>Language learning 📚</li>
-            <li>Photography 📷</li>
-        </ol>
-        <hr color=#5C6945 noshade/>
-        <h2>Work experience</h2>
-        <table border="1">
-            <tr>
-                <th>Company</th>
-                <th>Position</th>
-                <th>Years</th>
-            </tr>
-            <tr>
-                <td>Fonbet</td>
-                <td>1st line support</td>
-                <td>2019-2020</td>
-            </tr>
-            <tr>
-                <td>AdGuard</td>
-                <td>QA engineer</td>
-                <td>2021-2022</td>
-            </tr>
-        </table>
-        <hr color=#5C6945 noshade/>
-        <h2>TikTok content</h2>
-        <a href="tiktok.html">View my Tiktok content</a>
-
-        <hr color=#5C6945 noshade/>
-        <footer>
-        <h3>Contact me</h3>
-        <form action="/">
-            <label for="email">Your email: </label>
-            <input type="email" id="email" placeholder="Type your email..">
-            <input type="submit" value="Contact Anna">
-
-            <br>
-
+        <div class="contact">
+            <h2>Contact me</h2>
+                <form action="/">
+            <div class="form-group">
+                <label for="email">Your email: </label>
+                <input type="email" id="email" placeholder="Type your email..">
+            </div>
+            
+            <div class="form-group">
             <label for="text">Your message:</label>
-            <br>
-            <textarea id="text" rows="2" cols="15"></textarea>
-
+                <textarea id="text" rows="2" cols="15"></textarea>
+            </div>
+            <input type="submit" class="btn" value="Contact Anna">
         </form>
     </footer>
-    </body>
+        </div>
+    <div class="position">
+        <div class="box">
+            <a href="tiktok.html">Waiting for your likes💜</a>
+        </div>
+        
+    </div>
+
+
+    <div style="margin-bottom: 50px;"></div>
+    </div>
+</div>
+ </body>
